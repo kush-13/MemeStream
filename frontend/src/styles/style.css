@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 300;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem 1.2rem;
+    align-items: center;
+    background-color: rgb(197, 197, 197);
+    box-shadow: 0px 3px 8px 0px rgba(50, 50, 50, 0.6);
+    -webkit-box-shadow: 0px 3px 8px 0px rgba(50, 50, 50, 0.6);
+    -moz-box-shadow: 0px 3px 8px 0px rgba(50, 50, 50, 0.6);
+}
+
+.navbar__name__heading > h1 {
+    font-family: 'Lobster', cursive;
+}
+
+.navbar__searchBox {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__searchBox > input {
+    text-align: center;
+    outline-style: none;
+    padding: 0.2rem;
+    border-radius: 4px;
+} */
+
+/* ###################################### CONTENT BODY #################################### */
+.content {
+  display: grid;
+  grid-template-columns: 4fr 1.5fr;
+  grid-gap: 1.7rem;
+  padding: 2rem;
+}
+
+/* ################################### CONTENT FORM BODY ################################### */
+.content__formBody {
+  border: 1px solid rgb(160, 160, 160);
+  background-color: rgb(245, 245, 245);
+  border-radius: 0.4rem;
+  padding: 1rem;
+}
+
+.content__formBody .givePadding {
+  margin: 1rem 0;
+}
+
+.content__formBody > form > h2 {
+  text-align: center;
+  font-family: "Lobster", cursive;
+}
+
+/* ################################### CONTENT POSTS BODY ################################## */
+.content__postsBody {
+  border-radius: 0.4rem;
+  padding: 1rem;
+}
+
+/* ################################ POSTS BODY SINGLE POST ################################# */
+.content__postsBody__Post {
+  border: 1px solid rgb(160, 160, 160);
+  background-color: rgb(245, 245, 245);
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 50%;
+  margin: 0 auto 2.5rem auto;
+  padding: 1rem 0;
+}
+
+.content__postsBody__Post__author {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.author__left {
+  display: flex;
+  align-items: center;
+}
+
+.author__left > span {
+  margin-left: 0.7rem;
+}
+
+.author__left__userInfo {
+  margin-left: 0.5rem;
+}
+
+.author__left__userInfo > p {
+  font-size: x-small;
+}
+
+.content__postsBody__Post__img > img {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.content__postsBody__Post__msg {
+  margin: 1rem 1rem;
+}
+
+.content__postsBody__Post__msg > p {
+  font-family: "Redressed", cursive;
+  font-size: 1.5rem;
+}
+
+.content__postsBody__Post__icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Post__like {
+  margin-left: 1rem;
+}
+
+.Post__delete {
+  margin-right: 1.5rem;
+}
